@@ -7,7 +7,7 @@ const save = async (user) => {
                   VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
                   RETURNING *`;
     
-    const values = [user.name, user.lastname, user.email, user.address, user.phonenumber];
+    const values = [user.rut, user.names, user.lastnames, user.entity_id, user.commune_id, user.login, user.password, ];
     const result = await connection.query(query, values);
     connection.release();
     return result.rows[0];
