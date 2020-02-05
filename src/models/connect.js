@@ -1,10 +1,10 @@
 const { Pool } = require("pg");
 
 const pool = new Pool({
-    user : "mpquvspq",
+    user : "krgwtsdd",
     host : "rajje.db.elephantsql.com",
-    database : "mpquvspq",
-    password : "kITRAwcEU1r0zj7AmhqQ5YA1qFCLCD2B"
+    database : "krgwtsdd",
+    password : "u9oI8vV2OJMdiA1ECpYdVKe3QClRXr0Y"
 });
 
 const connecting = async () => {
